@@ -1,7 +1,7 @@
 package dev.mcor.springotlplab
 
-import io.opentelemetry.extension.annotations.SpanAttribute
-import io.opentelemetry.extension.annotations.WithSpan
+import io.opentelemetry.instrumentation.annotations.SpanAttribute
+import io.opentelemetry.instrumentation.annotations.WithSpan
 import org.springframework.stereotype.Component
 
 interface GreetingService {
