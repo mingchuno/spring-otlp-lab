@@ -21,11 +21,11 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    implementation("io.opentelemetry:opentelemetry-exporter-logging:1.17.0")
+    implementation("io.opentelemetry:opentelemetry-exporter-logging:1.18.0")
     implementation(
-        "io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter:1.17.0-alpha"
+        "io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter:1.18.0-alpha"
     )
-    runtimeOnly("io.opentelemetry.instrumentation:opentelemetry-spring-webmvc-5.3:1.17.0-alpha")
+    runtimeOnly("io.opentelemetry.instrumentation:opentelemetry-spring-webmvc-5.3:1.18.0-alpha")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
